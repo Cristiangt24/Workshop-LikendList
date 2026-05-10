@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DoublyLinkedList.DLinkedList&lt;T&gt;">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAAAAAAAQSAAEAAAAAAAAgCBAAAAAAAAAAAABAAI=</HashCode>
+      <FileName>DLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoublyLinkedList.Node&lt;T&gt;">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -3,7 +3,7 @@
   <Class Name="DoublyLinkedList.DLinkedList&lt;T&gt;">
     <Position X="4.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAYAAAAAAAAQSAAEAAAAAAAAgCBAAAAAAAAAAAABAAI=</HashCode>
+      <HashCode>AAYCAAAAAAAUAAAEAAAAAAAAgCAAAAIAAAAAAAABEAI=</HashCode>
       <FileName>DLinkedList.cs</FileName>
     </TypeIdentifier>
   </Class>

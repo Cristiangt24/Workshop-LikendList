@@ -23,6 +23,7 @@ do
             break;
         case "4":
             list.DescendingOrder();
+            Console.WriteLine("It was ordered decently and successfully.");
             break;
         case "5":
             list.ShowMode();

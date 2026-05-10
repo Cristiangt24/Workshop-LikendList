@@ -1,6 +1,6 @@
 ﻿namespace DoublyLinkedList;
 
-public class DLinkedList<T> : LinkedList<T> where T : IComparable<T>
+public class DLinkedList<T> where T : IComparable<T>
 {
     // ─── Fields ──────
     private Node<T>? _head;
@@ -256,9 +256,9 @@ public class DLinkedList<T> : LinkedList<T> where T : IComparable<T>
         }
 
         if (found)
-            Console.WriteLine($"✓ '{data}' exists in the list at position {position}.");
+            Console.WriteLine($" '{data}' exists in the list at position {position}.");
         else
-            Console.WriteLine($"✗ '{data}' does not exist in the list.");
+            Console.WriteLine($" '{data}' does not exist in the list.");
     }
 
     public void RemoveOccurrence(T data)
@@ -300,14 +300,14 @@ public class DLinkedList<T> : LinkedList<T> where T : IComparable<T>
                     current.Next.Previous = current.Previous;
                 }
 
-                Console.WriteLine($"✓ First occurrence of '{data}' removed successfully.");
+                Console.WriteLine($" First occurrence of '{data}' removed successfully.");
                 return;
             }
 
             current = current.Next;
         }
 
-        Console.WriteLine($"✗ '{data}' does not exist in the list.");
+        Console.WriteLine($" '{data}' does not exist in the list.");
     }
 
     public void RemoveAllOccurrences(T data)
@@ -359,9 +359,9 @@ public class DLinkedList<T> : LinkedList<T> where T : IComparable<T>
         }
 
         if (count > 0)
-            Console.WriteLine($"✓ {count} occurrence(s) of '{data}' removed successfully.");
+            Console.WriteLine($" {count} occurrence(s) of '{data}' removed successfully.");
         else
-            Console.WriteLine($"✗ '{data}' does not exist in the list.");
+            Console.WriteLine($" '{data}' does not exist in the list.");
     }
     public override string ToString()
     {
